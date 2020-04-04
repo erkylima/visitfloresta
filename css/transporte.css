@@ -1,0 +1,39 @@
+#servico-pag{
+	background: url("../img/transporte/transporte.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#taxi{
+	background: url("../img/transporte/taxi.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+#mt_t{
+	background: url("../img/transporte/moto.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+#rd_v{
+	background: url("../img/transporte/rodoviaria.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/*Padrão*/
+#titulos{
+	text-align: center;
+	color:#fff;
+	font-family: Bebas;
+	font-size: 300%;
+	margin: auto auto auto auto;
+	border-radius: 2px;
+    width: 66%;	
+    height:16%;
+    padding:20px;
+	border: 2px solid white;
+}
+h5#caracteristicas{
+	font-family: 'BigNoodle';
+	color: #fff;
+	font-size: 25pt;
+	text-align: center;
+}

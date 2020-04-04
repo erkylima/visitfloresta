@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@font-face {
+    font-family: DreamAmerican;
+    src: url(../fonts/DreamAmerican.otf);
+    }
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue.otf);
+    }
+@font-face {
+    font-family: CaviarDreamsBold;
+    src: url(../fonts/CaviarDreams_Bold.ttf);
+    }
+@font-face {
+	font-family: BigNoodle;
+	src: url('../fonts/BigNoodle.ttf');
+}
+#titulo{
+	text-align: center;
+	color:#000;
+	font-family: 'bebas', sans-serif;
+	font-size: 60pt;
+}
+#logo #visit{
+	text-align: center;
+	font-family: 'bebas', sans-serif;
+	font-size: 50pt;
+	padding:-10px;
+	margin:5px;
+	color:#fff;
+}
+#logo #f{
+	margin:-20px;
+	padding:0px ;
+	font-size: 40pt;
+	font-family: DreamAmerican;
+	color:#58B54F;
+}
+#logo #loresta{
+	font-family: DreamAmerican;
+	font-size: 40pt;
+	color:#fff;
+}
+#detalhes{
+	text-align: center;
+}
+ul#menu-prin{
+	margin:5px;
+	padding:5px;
+	display:block;
+	float:center;
+}
+div#menu{
+  	-webkit-animation-duration: 0.7s;
+  	animation-duration: 0.7s;	
+	background: rgba(0,0,0,.9);
+}
+div#menu-l{
+	margin-top:2.5%;	
+	margin-left: 15%;
+	float:left;
+}
+div#menu-r{
+	margin-top:2.5%;	
+	margin-right: 15%;	
+	float:right;
+}
+div#logo{
+	padding:5px;
+	margin:5px;
+	text-align: center;
+	margin:auto;
+}
+li a:link {
+	color:#fff;	
+    text-decoration: none;
+}
+
+li a:visited {
+	color:#fff;	
+    text-decoration: none;
+}
+
+li a:active {
+	color:#fff;
+    text-decoration: none;
+}
+li{
+	display: inline-block;
+	color:#fff;
+    text-decoration: none;
+}
+li a{
+	font-size: 20pt;
+	margin:5px;
+	font-family: Bebas;
+	padding:5px;
+	color:#fff;	
+	text-align: center;
+	list-style: none;
+	text-decoration: none;		
+}
+li a:hover{	
+	padding:5px;
+	margin:5px;
+	color: #ddd;
+	list-style:none;
+	text-decoration: none;	
+}
+img#catedral{
+ 	width:150%;
+	height:150%;
+}
+img#bandeira{
+  width:150%;
+  height:150%;
+}
+img#rosario{
+	width:150%;
+	height:150%;
+}
+h3#titulo-func{
+	font-family: BigNoodle;
+	text-align: center;
+	color:#000;
+}
+h4#text-func{
+	font-family: BigNoodle;
+	text-align: center;
+	color:#000;
+}
+hr{
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+p{
+	text-align: justify;
+}
+
+h2#text-circ{
+	font-family: CaviarDreamsBold;
+	font-size: 27pt;
+	color:#000;
+}
+#text-tit{
+	font-family: CaviarDreamsBold;
+	font-size: 35pt;
+	color:#000;
+}
+h1.text-slide-tit{
+	font-family: CaviarDreamsBold;
+	text-shadow: 4px 8px 30px rgba(150, 150, 150, 1);
+	color:#fff;
+	font-size: 40pt;
+}
+figure.img{
+	position:relative;
+	border:8px solid white;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+}
+figure.img-mae{
+	margin-left: 50px;
+}
+figure.img img{
+	width:100%;
+	height:100%;
+}
+figure.img figcaption{
+	opacity: 0;
+	position:absolute;
+	top: 0;
+	background-color: rgba(0,0,0,.4);
+	color:white;
+	width:100%;
+	height:100%;
+	padding-top:50px;
+	box-sizing:border-box;
+	transition: opacity 1s ease-in;
+}
+figure.img:hover figcaption{
+	opacity: 1;
+}
+figure h2.text{
+	text-align: center;
+	font-family: BigNoodle;
+}
+figure h5.autoral{
+	display:block;
+	position:absolute;
+	bottom:0px;
+	right:20px;
+	text-align: right;
+	font-family: BigNoodle;
+}

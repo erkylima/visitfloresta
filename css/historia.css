@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue.otf);
+    }
+@font-face {
+	font-family: BigNoodle;
+	src: url('../fonts/BigNoodle.ttf');
+}
+@font-face {
+    font-family: CaviarDreamsBold;
+    src: url(../fonts/CaviarDreams_Bold.ttf);
+    }
+@font-face {
+	font-family: CaviarDreams;
+	src: url('../fonts/CaviarDreams.ttf');
+}
+#histo-pag{
+	background: url('../img/quem-somos/back.jpg');
+	background-size: 100%
+}
+#titulos{
+	text-align: center;
+	color:#fff;
+	font-family: Bebas;
+	font-size: 300%;
+	margin: auto auto auto auto;
+	border-radius: 2px;
+    width: 66%;	
+    height:16%;
+    padding:20px;
+	border: 2px solid white;
+}
+h5#caracteristicas{
+	font-family: 'BigNoodle';
+	color: #fff;
+	font-size: 25pt;
+	text-align: center;
+}
+h3.sub-t{
+	font-family: CaviarDreamsBold;
+}
+p.text{
+	text-align: justify;
+	font-family: CaviarDreams;
+	font-size: 20px;
+	color: black;
+	text-indent: 2em;
+}
+figure{
+	margin-right: 10px;
+	position: relative;
+	float: right;
+}
+figure img.logo{
+	border: 8px solid white;
+	box-shadow: 2px 2px 3px 2px rgba(0,0,0,.5);
+}
+img{
+	margin-left: 20px;
+	border-radius: 0px 0px 0px 30px;
+}

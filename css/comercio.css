@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue.otf);
+    }
+@font-face {
+	font-family: BigNoodle;
+	src: url('../fonts/BigNoodle.ttf');
+}
+#onde-comprar-pag{
+	background: url("../img/comercio/mercado.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#post-ga-pag{
+	background: url("../img/comercio/posto_de_gasolina.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#pap-pag{
+	background: url("../img/comercio/papelaria.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#pet-pag{
+	background: url("../img/comercio/PET.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#farm-pag{
+	background: url("../img/comercio/farmacia.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#constru-pag{
+	background: url("../img/comercio/construcao.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#cosme-pag{
+	background: url("../img/comercio/cosmeticos.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#titulos{
+	text-align: center;
+	color:#fff;
+	font-family: Bebas;
+	font-size: 300%;
+	margin: auto auto auto auto;
+	border-radius: 2px;
+    width: 66%;	
+    height:16%;
+    padding:20px;
+	border: 2px solid white;
+}
+h5#caracteristicas{
+	font-family: 'BigNoodle';
+	color: #fff;
+	font-size: 25pt;
+	text-align: center;
+}

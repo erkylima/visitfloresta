@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Fontastique;
+    src: url(../fonts/Fontastique.ttf);
+    }
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue.otf);
+    }    
+@font-face {
+  font-family: BigNoodle;
+  src: url('../fonts/BigNoodle.ttf');
+}    
+div#menu-pesquisa{
+	background: url("../img/menu/bg-menu.jpg");
+	height:40%;
+	clear:both;
+}
+div a:link {
+	color:#fff;	
+    text-decoration: none;
+}
+
+div a:visited {
+	color:#fff;	
+    text-decoration: none;
+}
+
+div a:active {
+	color:#fff;
+    text-decoration: none;
+}
+h1#menu-caracteristicas{
+	text-align: center;
+	color:#fff;
+	font-family: Bebas;
+	font-size: 300%;
+	margin: auto auto auto auto;
+	border-radius: 2px;
+    width: 66%;	
+    height:16%;
+    padding:20px;
+	border: 2px solid white;
+}
+#icons{
+	display:block;
+	margin: auto;
+    transition: border-color .5s ease-in-out;
+    border-top: 3px solid transparent;
+
+  }
+#icons:hover{
+	border:2px solid black;
+    -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+           -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+              transition: all 1s ease;	
+}
+h3#subtitulos{
+	text-align: center;
+	color:white;
+	font-family: Bebas;
+}
